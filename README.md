@@ -6,10 +6,10 @@
 
 your_name/
     index.html
-        assets/
-            stylesheets/
-            images/
-            javascript/
+    assets/
+        stylesheets/
+        images/
+        javascript/
 
 2. Inside the stylesheets director, create a file custom.css
 
