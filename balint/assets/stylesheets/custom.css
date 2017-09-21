@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    color: #222
+    font-family: "Noto Sans"
+    font-weight: 300; 
+}
+
+#main {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    height: 400px;
+    border-radius: 2px;
+}
+
+.left {
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right {
+    padding: 40px;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-position: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWitn7h4mAu6RjR1p9_dmyPzdPdPJwMHTrEkM7_ogqFXdcYTO1');
+    background-size: cover;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px #aaa;
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    height: 32px;
+    font-weight: 400;
+}
+
+.sign-up-button {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    width: 220px;
+    border: none;
+    border-radius: 2px;
+    background-color: #777;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.sign-up-button:hover{
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    transition: 0.5s ease;
+}
+
+.sign-up-button:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.4)
+}
+
+button {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.facebook {
+    background-color: lightgray;
+}
+
+.google {
+    background-color: lightskyblue;
+}
+
+.twitter {
+    background-color: lightseagreen;
+}
