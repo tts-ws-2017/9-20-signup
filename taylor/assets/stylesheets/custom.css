@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    color: #222;
+    font-family: "Noto Sans";
+    font-weight: 300
+}
+
+#main {
+    position: relative;
+    background-color: aliceblue;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.left {
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right {
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-position: center;
+    background-image: url('https://goo.gl/YbktSj');
+    background-size: cover;
+    text-align: center;
+}
+
+
+input {
+    border: none;
+    border-bottom: solid 1px #aaa;
+    display: block;
+    margin-bottom: 20px;
+    height: 32px;
+    font-weight: 400;
+}
+
+.sign-up-button {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.sign-up-button:hover {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease;
+}
+
+.sign-up-button:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.social-button {
+    margin-bottom: 8px;
+    width: 180px;
+    height: 25px;
+    border: none; 
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    
+}
