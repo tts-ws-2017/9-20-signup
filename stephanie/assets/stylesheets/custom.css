@@ -28,7 +28,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    background-position: right;
+    background-image: url('/assets/images/cat1.JPG');
+    background-size: cover;
 }
+
 
 .right {
     padding: 40px;
@@ -37,35 +41,37 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background-position: center;
-    background-image: url('http://goo.gl/YbktSj');
+    background-position: left;
+    background-image: url('/assets/images/cat2.JPG');
     background-size: cover;
 }
 
 input {
     border: none;
     border-bottom: solid 1px #aaa;
+    width: 220px;
+    height: 36px;
     display: block;
-    margin-bottom: 20px;
-    height: 32px;
+    opacity: 0.5;
+    margin-bottom: 75px;
     font-weight: 400px;
 
 }
 
 .sign-up-button {
-    margin-bottom: 5px;
-    margin-top: 20px;
+    margin-bottom: 75px;
     width: 220px;
-    height: 32px;
+    height: 36px;
     border-radius: 2px;
     background-color: peachpuff;
     text-transform: uppercase;
 }
 
 .sign-up-button:hover {
-    opacity: 0.8;
+    opacity: 0.5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     transition: 0.5s ease;
+    color: black; 
 }
 
 .sign-up-button:active {
@@ -74,13 +80,21 @@ input {
 }
 
 button {
-    margin-bottom: 20px;
+    opacity: 0.9;
+    margin-bottom: 75px;
     width: 220px;
     height: 36px;
     border: none;
     border-radius: 2px;
     color: royalblue;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease;
+    color: black; 
 }
 
 .facebook {
